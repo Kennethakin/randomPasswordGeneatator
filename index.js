@@ -4,6 +4,9 @@ const copyI = document.querySelector(".fa-copy");
 const alertE = document.querySelector(".alert");
 
 
+alertE.classList.add("hidden");
+
+
 buttonE.addEventListener("click", () => {
     createPassword();
 });
